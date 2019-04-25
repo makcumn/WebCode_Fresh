@@ -1,0 +1,24 @@
+#glavnaya {
+	color: white; background: black;
+}
+#bio {
+	color: white; background: black;
+}
+#private-life {
+	color: white; background: black;
+}
+#links {
+	color: white; background: black;
+}
+.bio-text {
+	background: purple; color: white;
+}
+.privatelife-text {
+	background: darkblue; color: white;
+}
+.links-text {
+	background: orange; color: white;
+}
+footer div {
+	background: rgba(250, 0, 0, 1); color: white;
+}

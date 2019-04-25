@@ -1,0 +1,24 @@
+section {
+	color: blue;
+}
+div {
+	color: purple;
+}
+.two {
+	color: yellow;
+}
+.three {
+	color: green;
+}
+#Section1 {
+	color: pink;
+}
+footer div {
+	color: orange;
+}
+nav, h2 {
+	color: green;
+}
+body .wow {
+	background: yellow;
+}

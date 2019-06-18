@@ -1,0 +1,83 @@
+@import url(reset.css);
+@font-face {
+src: url(..//font/B612Mono-Bold.ttf);
+src: url(..//font/B612Mono-Regular);
+font-family: 'Mono';
+}
+
+.header {
+	height: 300px;
+	background-color: black;
+
+}
+.h1 {
+	color: white;
+	text-align: center;	
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Mono';
+
+
+}
+.image {
+	height: 800px;
+	background-image: url(..//img/coffee.jpg);
+	background-size: cover;
+	
+}
+.links {
+	height: 170px;
+	background-color: orange;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'B612Mono-Regular';
+}
+.text	{
+	height: 500px;
+	font-size: 20px;
+	font-family: 'B612Mono-Regular';
+}
+
+.footer {
+	height: 200px;
+	background-color:navy;
+
+}
+
+#last {
+	font-size: 40px;
+	text-align: left;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: 'B612Mono-Regular';
+}
+
+.h3 {
+	font-family: 'Mono';
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	color: navy;
+	text-align:center;
+
+
+}
+
+.h2 {
+font-weight: bold;
+font-family: 'Mono';
+letter-spacing: 1px;
+font-size: 25px;
+color: purple;
+
+
+}
+

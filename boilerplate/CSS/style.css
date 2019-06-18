@@ -1,3 +1,5 @@
+@import url(reset.css);
+
 #glavnaya {
 	color: white; background: black;
 }

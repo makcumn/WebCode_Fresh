@@ -1,0 +1,20 @@
+@font-face {
+	src: url(../fonts/gulim.ttf);
+	font-family: 'Gulim';
+	font-weight: normal;
+}
+
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Gulim';
+	
+}
+.paragraph p {
+	font-family: 'Gulim'
+}
+.paragraphTwo p {
+	font-family: 'Gulim'
+
+}

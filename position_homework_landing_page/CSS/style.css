@@ -1,0 +1,110 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+
+
+.header {
+	height: 200px;
+	width: 100%;
+	background-color: navy;
+	position: static;
+	top: 0;
+	left: 0;
+	
+	
+}
+
+.tagline {
+   font-size: 60px;
+   color: white;
+   font-family: 'Darker Grotesque', sans-serif;
+   text-align: left;
+   padding-top: 50px;
+   padding-left: 30px;
+}
+
+.elements {
+	height: 700px;
+	background-color: white;
+	position: relative;
+
+}
+
+.h2 {
+	font-size: 22px;
+	color: red;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.text {
+	font-size: 18px;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.elements_block1 {
+	height: 600px;
+	width: 300px;
+	border: 1px solid black;
+	position: relative;
+	border-radius: 10px;
+	top: 55px;
+	left: 100px;
+	right: 100px;
+	
+
+}
+.elements_block2 {
+	height: 600px;
+	width: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 55px;
+	left: 550px;
+	border-radius: 10px;
+}
+.elements_block3 {
+	height: 600px;
+	width: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 55px;
+	left: 1000px;
+	border-radius: 10px;
+}
+
+.footer {
+	height: 300px;
+	background-color: navy;
+}
+
+.footer_text {
+	font-size: 40px;
+	color: white;
+	font-family: 'Darker Grotesque', sans-serif;
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

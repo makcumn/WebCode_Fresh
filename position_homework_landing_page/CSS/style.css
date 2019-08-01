@@ -75,6 +75,7 @@
 }
 
 .footer {
+	display: flex;
 	height: 300px;
 	bottom: 0px;
 	background-color: navy;
@@ -86,9 +87,8 @@
 	font-size: 40px;
 	color: white;
 	font-family: 'Darker Grotesque', sans-serif;
-	text-align: left;
-	padding-top: 50px;
-	padding-left: 30px;
+	align-self: auto;
+
 }
 
 

@@ -15,7 +15,7 @@
 }
 
 .links	{
-	font-size: 40px;
+	font-size: 30px;
 	color: black;
 	align-self: auto;
 
@@ -27,18 +27,35 @@
    font-family: 'Darker Grotesque', sans-serif;
 }
 
-.elements {
-	height: 600px;
-
-
+.image {
+	display: flex;
+	height: 800px;
+	background-image: url(..//img/coffee.jpg);
+	background-size: cover;
+	font-size: 40px;
+	align-items: flex-start;
+	justify-content: space-around;
+	color: white;
 
 }
 
-.element.block {
+.element_block {
+	display: flex;
 	height: 600px;
 	width: 100%;
 	background-color: white;
 	display: flex;
+	align-items: center;
+
+}
+
+.item1 {
+
+height: 200px;
+width: 400px;
+border: 1px solid black;
+border-radius: 8px;
+
 
 }
 

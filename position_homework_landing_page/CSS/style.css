@@ -79,15 +79,22 @@
 	height: 300px;
 	bottom: 0px;
 	background-color: navy;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: auto;
+
 	
-	
+
 }
+
 
 .footer_text {
 	font-size: 40px;
 	color: white;
 	font-family: 'Darker Grotesque', sans-serif;
 	align-self: auto;
+	
+
 
 }
 

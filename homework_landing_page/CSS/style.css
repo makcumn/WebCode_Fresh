@@ -21,12 +21,13 @@ font-family: 'Mono';
 
 
 }
+
 .image {
-	height: 800px;
+	height: 1000px;
 	background-image: url(..//img/coffee.jpg);
 	background-size: cover;
-	
 }
+
 .links {
 	height: 170px;
 	background-color: orange;

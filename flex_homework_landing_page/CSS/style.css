@@ -88,6 +88,7 @@ padding-left: 10px;
 	padding-top: 100px;
 	flex-wrap: nowrap;
 	
+	
 
 }
 
@@ -96,10 +97,11 @@ padding-left: 10px;
 width: 100px
 height: 200px;
 padding-left: 150px;
+}
 
+.hario {
 
-
-
+	padding: -40px;
 }
 
 .picture2 {

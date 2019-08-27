@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+a {
+	width: 200px;
+	height: 50px;
+	display: block;
+	background-color: blue;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+a:hover {
+
+	background-color: red;
+}
+
+a:active {
+	box-shadow: 0 0 20px grey;
+	color: yellow;
+}
+
+a:visited {
+	color: orange;
+}
+
+a:link {
+
+	background-color: yellow;
+}
+
+/* LoVeHAte */

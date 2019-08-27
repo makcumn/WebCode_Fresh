@@ -1,0 +1,23 @@
+@import url(reset.css);
+
+div {
+
+	height: 200px;
+	width: 200px;
+	background-color: blue;
+	margin: 20px auto;
+	/*transition-property: all;
+	transition-duration: 1s;
+	transition-delay: .5s;
+	transition-timing-function: cubic-bezier(.12, .65, .82, 0);*/
+	transition: all 1s .5s cubic-bezier(.12, .65, .82, 0);
+}
+
+div:hover {
+
+	height: 300px;
+	width: 300px;
+	background-color: red;
+	transition: all 1s .5s cubic-bezier(.12, .65, .82, 0);
+
+}

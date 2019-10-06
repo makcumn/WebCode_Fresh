@@ -10,27 +10,88 @@
 }
 
 .columns {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 80vw;
 	margin: auto;
-	min-height: 400px;
+	min-height: 700px;
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
-	background-color: 
+	background-color:
 }
 
-.column {
+/*.column {
+	width: calc((100% - 40px)/3);
+	background-color: lightblue;*/
+
+.box1 {
+
+	
 	width: calc((100% - 40px)/3);
 	background-color: lightblue;
+	border: 1px solid black;
+	border-radius: 10px;
+	
+	
+
 }
 
-.image {
-	background-image: url(../img/B.B.King.jpg);
+.box1-image {
+
+	padding-top: 300px;
+	background-image: url(../img/hemingway.jpeg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+
+	padding-bottom: 20%;
+	
+}
+
+
+
+.box2 {
+
+	
+	width: calc((100% - 40px)/3);
+	background-color: lightblue;
+	border: 1px solid black;
+	border-radius: 10px;
+	
+	
+}
+
+.box2-image {
+
+	padding-top: 300px;
+	background-image: url(../img/poe.jpg);
+	background-size: cover;
+	background-position: center;
+
+	padding-bottom: 20%;
+	
+}
+
+
+
+.box3 {
+	
+	width: calc((100% - 40px)/3);
+	background-color: lightblue;
+	border: 1px solid black;
+	border-radius: 10px;
+	
+	
+
+}
+
+.box3-image {
+
+	padding-top: 300px;
+	background-image: url(../img/dumas.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 20%;
 }
 
 .footer {
@@ -41,5 +102,6 @@
 	font-size: 50px;
 	font-family: 'Helvetica';
 	color: white;
-	justify-content: flex-end;
+	justify-content: flex-start;
+
 }

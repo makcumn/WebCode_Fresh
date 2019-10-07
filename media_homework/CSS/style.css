@@ -1,109 +1,59 @@
 @import url(reset.css);
 
 .header {
-	height: 100px;
 	background-color: navy;
-	display: flex;
 	font-size: 50px;
 	font-family: 'Helvetica';
 	color: white;
+	padding: 15px;
 }
 
 .columns {
 
-padding-top: 50px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 	width: 80vw;
 	margin: auto;
 	min-height: 700px;
 	display: flex;
-	justify-content: space-between;
-	align-items: stretch;
-	background-color:
-
+	flex-flow: row wrap;
 }
 
-.box1 {
+.box {
 	border: 2px solid black;
 	border-radius: 10px;
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	left: 110px;
-	top: 202px;
-
 	font-family: Helvetica;
 	font-size: 50px;
 	line-height: 57px;
+	margin: 5px;
+	width: calc(50% - 14px);
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+
 	display: flex;
 	align-items: center;
-	text-align: center;
 }
 
-.box2 {
-	border: 2px solid black;
-	border-radius: 10px;
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	left: 730px;
-	top: 202px;
 
-	font-family: Helvetica;
-	font-size: 50px;
-	line-height: 57px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-}
-
-.box3 {
-	border: 2px solid black;
-	border-radius: 10px;
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	left: 110px;
-	top: 522px;
-
-	font-family: Helvetica;
-	font-size: 50px;
-	line-height: 57px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-}
-
-.box4 {
-	border: 2px solid black;
-	border-radius: 10px;
-	position: absolute;
-	width: 600px;
-	height: 300px;
-	left: 730px;
-	top: 522px;
-
-	font-family: Helvetica;
-	font-size: 50px;
-	line-height: 57px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-}
 
 .footer {
-
-	height: 100px;
 	background-color: navy;
 	display: flex;
 	font-size: 50px;
 	font-family: 'Helvetica';
 	color: white;
-	justify-content: flex-start;
+	padding:  15px;
+	display: flex;
+	align-items: center;
 }
-
-@media	screen and (min-width: 600px) {
-	div .columns {
-		width: 40%;
+.spacer{
+	flex-grow: 1;
+}
+@media	screen and (max-width: 600px) {
+	.box {
+		border: 1px solid red;
+		width: 100%;
+		min-height: 250px;
 	}
 }
